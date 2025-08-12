@@ -158,7 +158,7 @@ ____
 
 Organizing a GitHub Repository Directly from the Web Interface
 Here's how to structure your GitHub repository like a pro using only the web interface, without command line.
-
+```
 Recommended Professional Structure
 📁 my-project/
 ├── 📁 .github/
@@ -174,6 +174,7 @@ Recommended Professional Structure
 ├── 📄 LICENSE
 ├── 📄 README.md (vous êtes ici)
 └── 📄 CONTRIBUTING.md
+```
 
 Steps to Create This Structure on GitHub
 1. Create a New Repository
