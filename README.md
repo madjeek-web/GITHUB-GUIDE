@@ -7,7 +7,7 @@ Organizing a GitHub Repository Like a Pro
 Here's how to structure a professional project repository on GitHub using the command line, with the role of each element explained.
 
 Recommended Base Structure
-
+```
 my-project/
 ├── .github/                  # GitHub configuration files
 │   ├── workflows/            # GitHub Actions (CI/CD)
@@ -27,6 +27,8 @@ my-project/
 ├── LICENSE                   # Project license
 ├── README.md                 # Main README file
 └── CONTRIBUTING.md           # Contributor guide
+```
+
 Roles of Different Elements
 1. .github/
 workflows/: Contains YAML files for GitHub Actions (CI/CD)
