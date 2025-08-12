@@ -84,10 +84,10 @@ LICENSE: Project license (MIT, GPL, Apache, etc.)
 CONTRIBUTING.md: How to contribute to the project
 
 Commands to Create This Structure
-bash
+```bash
 # Create base structure
 mkdir -p my-project/{.github/{workflows,ISSUE_TEMPLATE},build,dist,docs,src/{main/{java,resources},test/{java,resources}},scripts}
-
+```
 # Initialize Git repository
 cd my-project
 git init
@@ -230,7 +230,7 @@ Name the file .gitignore
 
 Add rules for your language (Java example):
 
-text
+
 *.class
 *.jar
 *.war
@@ -248,7 +248,7 @@ Enter .github/workflows/main.yml as path
 
 Add basic CI workflow (example):
 
-yaml
+```yaml
 name: CI
 on: [push, pull_request]
 jobs:
@@ -258,6 +258,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run tests
       run: echo "Tests to be implemented"
+```
 b. Create src/ structure
 "Add file" > "Create new file"
 
@@ -303,6 +304,7 @@ Short project description.
 ```bash
 git clone https://github.com/youruser/yourproject.git
 cd yourproject
+```
 Usage
 Code examples showing how to use the project.
 
@@ -312,7 +314,6 @@ See CONTRIBUTING.md
 License
 MIT
 
-text
 
 ## Web Best Practices
 
