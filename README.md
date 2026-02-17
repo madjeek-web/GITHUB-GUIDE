@@ -328,3 +328,13 @@ MIT
 4. **Wiki**: Enable Wiki for more detailed documentation
 
 This method allows creating a professional structure entirely through GitHub's web interface, ideal for those who don't want to use command line.
+
+##
+
+la syntaxe Markdown pour GitHub, incluant les blocs de code, les liens, et tout le reste :
+
+Documentation officielle GitHub (en anglais) :
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
+
+Documentation officielle GitHub (en français) :
+https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax 
