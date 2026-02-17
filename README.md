@@ -1,7 +1,8 @@
 ##
 
-https://docs.github.com/en
-https://docs.github.com/fr
+- https://docs.github.com/en
+
+- https://docs.github.com/fr
 ##
 
 # GITHUB-GUIDE
