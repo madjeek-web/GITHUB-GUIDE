@@ -1,3 +1,9 @@
+##
+
+https://docs.github.com/en
+https://docs.github.com/fr
+##
+
 # GITHUB-GUIDE
 Features and craftsmanship with GitHub - Guide / Helper
 
