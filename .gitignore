@@ -1,1 +1,107 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build outputs
+build/
+dist/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.rar
+*.zip
+*.tar.gz
+*.tgz
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+*.env
+
+# IDE and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Test coverage
+coverage/
+.nyc_output/
+.pytest_cache/
+htmlcov/
+*.cover
+.hypothesis/
+
+# Package manager locks (keep these actually, but here for reference)
+# package-lock.json
+# yarn.lock
+# composer.lock
+
+# Certificates and keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Docker
+.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# PHP specific
+.phpunit.result.cache
 
