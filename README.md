@@ -1934,3 +1934,122 @@ Fabien Conéjéro - [https://github.com/madjeek-web](https://github.com/madjeek-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+##
+
+##
+
+# GitHub Projects - FAQ
+
+---
+
+## Q : What is this ? How does it work, explain simply ?
+
+### What is GitHub Projects ?
+
+It is a task management tool integrated into GitHub. Imagine a table like Notion or Trello, but directly linked to your code.
+
+### What is it concretely used for ?
+
+When you work on a project (alone or in a team), you have a lot of things to manage : bugs to fix, features to add, things in progress... GitHub Projects allows you to follow all of this visually without leaving GitHub.
+
+### How does it work ?
+
+You create "issues" (= tasks, like "fix the login bug" or "add the dark mode button"), and you organize them in a table. You can filter them (ex : see only bugs), sort them (by priority, by date...), group them (by status : To do / In progress / Done), and add custom fields (priority, deadline, responsible...).
+
+### What you see on your screen
+
+You have a project with 1 open issue and 0 closed. It is in Private mode (no one else can see it).
+
+In summary : it is like a professional to-do list for your code. Very useful when your project grows and you do not want to lose track.
+
+---
+
+## Q : Is it private or public ?
+
+Based on what is displayed : Private.
+
+We can clearly see "Private" next to the project name. So only you can see it.
+
+---
+
+## Q : On the web, in public mode, can it also be public ?
+
+Yes exactly ! A GitHub project can be :
+
+- Private : only you (or your team) can see it
+- Public : anyone on the internet can view it
+
+"There aren't any projects yet" means this person has no public projects visible on their profile. Either they have not created any, or they are all set to private.
+
+In summary : when you create a project, you choose yourself whether it is public or private.
+
+---
+
+## Q : What is the point of showing things there in public mode ?
+
+To show your seriousness when you are looking for a job or an internship. A recruiter who visits your GitHub can see not only your code, but also how you organize yourself, how you manage your tasks... it looks professional.
+
+For open source projects, if other developers contribute to your code, they can see what remains to be done, what is in progress, and organize themselves with you without having to ask you every time.
+
+For transparency, if you develop a tool used by people, they can follow the progress, see known bugs, know what you plan to add...
+
+In short, in private mode it is your personal draft, in public mode it is your professional showcase.
+
+---
+
+## Q : Same questions for : Overview, Repositories, Projects, Packages, Stars.
+
+These are the tabs of your GitHub profile, here is what each one is used for.
+
+### Overview
+
+This is your main page, what people see first. You can put a presentation of yourself, your stats (commits, contributions...). It is your business card.
+
+### Repositories
+
+This is where all your code projects are stored. Each "repo" = one project (a website, an app, a script...). Public or private, this is where your code lives.
+
+### Projects
+
+We just talked about it ! These are your task management tables. Linked to your repos to organize your work.
+
+### Packages
+
+This is more advanced. It allows you to publish libraries or tools that other developers can install and reuse in their own projects. At your level you will probably not use it right away.
+
+### Stars
+
+When you find a nice project on GitHub, you can give it a star (like a "like"). This tab shows all the projects you have liked, handy for finding them later.
+
+In summary : Repositories = your code, Projects = your organization, Stars = your favorites, Packages = what you share with the community.
+
+---
+
+# How to update your public repository with this file
+
+## If you already have a local clone of your repository
+
+Open your terminal in the folder of your repository, then run these commands one by one :
+
+```bash
+cp /path/to/github-projects-faq.md .
+git add github-projects-faq.md
+git commit -m "Add GitHub Projects FAQ"
+git push
+```
+
+## If you want to add it directly from the GitHub web interface
+
+1. Go to your repository on github.com
+2. Click "Add file" then "Upload files"
+3. Drag and drop the file `github-projects-faq.md`
+4. At the bottom of the page, write a short commit message, for example : "Add GitHub Projects FAQ"
+5. Click "Commit changes"
+
+The file will then be visible publicly in your repository.
+
+## If you want to name it differently
+
+You can rename it `README.md` if you want it to appear automatically on the main page of your repository. GitHub displays the README.md file by default when someone visits your repo.
+
